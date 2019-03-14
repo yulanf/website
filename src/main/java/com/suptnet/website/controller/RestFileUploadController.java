@@ -35,7 +35,7 @@ public class RestFileUploadController {
     @GetMapping("/")
     public List<Task> listUploadedFiles() throws IOException {
 
-
+        List<User> r = new ArrayList<User>(users.values());
         return null;
     }
 
